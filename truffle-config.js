@@ -65,7 +65,8 @@ module.exports = {
     // options below to some value.
     //
     development: {
-      host: "127.0.0.1",     // Localhost (default: none)
+      // host: "127.0.0.1",     // Localhost (default: none)
+      host: "192.168.68.105",
       port: 7545,            // Standard Ethereum port (default: none)
       network_id: "*",       // Any network (default: none)
     },
@@ -103,6 +104,7 @@ module.exports = {
     // timeout: 100000
   },
 
+  // contracts_build_directory: "./truffle-artifacts",
   // Configure your compilers
   compilers: {
     solc: {
